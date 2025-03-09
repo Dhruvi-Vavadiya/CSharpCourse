@@ -17,7 +17,7 @@ namespace Naresh_i_Technologies_Delegate
             //protected not use becaue not inherite the AccssModifiers class
             modi.MPublic();
             modi.MIntenal();
-            modi.MProtectedInternal();
+            modi.MProtectedInternal(); 
         }
     }
 }
