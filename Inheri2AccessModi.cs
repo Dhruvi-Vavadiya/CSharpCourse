@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Naresh_i_Technologies_Delegate
+namespace CSharpCourse
 {
     internal class Inheri2AccessModi
     {
-        //case 3 :- consuming menbers of class from non-child class of same project
+        //case 3 :- consuming menbers of class from non-child class of same project (protected,Private N)
         static void Main(string[] args)
         {
             AccessModifiers modi = new AccessModifiers();

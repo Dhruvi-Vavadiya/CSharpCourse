@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Naresh_i_Technologies_Delegate
+namespace CSharpCourse
 {
-    internal class AccessModifiers
+    //Public class can inherite AccessModiferDemo2.Inheri3AccessModi class
+    public class AccessModifiers
     {
         public void MPublic()
         {
@@ -20,6 +21,7 @@ namespace Naresh_i_Technologies_Delegate
         {
             Console.WriteLine("Protected method");
         }
+        //internal only accesible by with in the same prject do not use outside the project
         internal void MIntenal()
         {
             Console.WriteLine("internal method");
@@ -30,8 +32,9 @@ namespace Naresh_i_Technologies_Delegate
             Console.WriteLine("Protected internal method");
         }
 
-        //case 1 :- consuming members of class from same class
-        static void Main()
+        //case 1 :- consuming members of class from same class (all Y)
+        public static void Main(string[] args)
+
         {
             AccessModifiers acc = new AccessModifiers();
             acc.MPublic();
@@ -39,6 +42,7 @@ namespace Naresh_i_Technologies_Delegate
             acc.MProtected();
             acc.MIntenal();
             acc.MProtectedInternal();
+
 
         }
     }

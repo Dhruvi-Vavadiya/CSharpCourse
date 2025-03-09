@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Naresh_i_Technologies_Delegate
+namespace CSharpCourse
 {
     public delegate string grettingDel(string name);
     internal class AnonymousMethods

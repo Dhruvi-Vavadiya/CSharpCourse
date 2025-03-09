@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Naresh_i_Technologies_Delegate
+namespace CSharpCourse
 {
     ////function delegate
     //public delegate double del_addnum1(int x, float y, double z);
