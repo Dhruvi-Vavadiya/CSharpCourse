@@ -1,0 +1,97 @@
+.NET Core
+https://learn.microsoft.com/en-us/dotnet/core/introduction
+. Net architecture framework
+https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet-framework
+Data types
+Statements and methods
+Properties 
+Access Modifier
+Abstract 
+Structure
+Enumerations
+Exception handling 
+OOP
+
+Collection
+https://learn.microsoft.com/en-us/dotnet/api/system.collections?view=net-8.0
+https://learn.microsoft.com/en-us/dotnet/api/system.collections.arraylist?view=net-8.0
+https://learn.microsoft.com/en-us/dotnet/api/system.collections.stack?view=net-8.0
+https://learn.microsoft.com/en-us/dotnet/api/system.collections.queue?view=net-8.0
+Indexers
+Delegates
+Events
+Static
+IO namespace
+Threads
+Generics
+https://learn.microsoft.com/en-us/dotnet/standard/generics/
+https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/generics
+https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-classes
+Local Function
+LINQ
+MVC architecture
+Basic related to API
+
+.Expression-bodied members (C# programming guide)
+https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members
+Anonymous types
+https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/anonymous-types
+
+Tuple types (C# reference)
+https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-tuples
+
+Introduction to record types in C#
+https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/records
+
+===========================================================
+==> Constratcor
+	static const
+	public const
+
+==> variable of class
+	instance of class
+	reference of class
+
+==> access modifiers
+	private
+	protected
+	public
+	internal
+	internal protected
+
+==>Inheritance
+1.Parent class constructor must be accessible to child class or else inheritance will not be possible 
+2.inheritance child classes can access parent classes members but a parent class can never access its child class number
+3.we can intialize the parent class variable by using its child class instance 
+
+1.single
+2.multi level
+3.Hierarchical
+4.Hybrid(multi level +Hierarchical)
+5.multiple 
+
+==>Method Overloading
+	it's approches to implement multiple  method having same name but diffrent paramenter type it's called overloading
+
+==> Method Overriding
+	it's approch of re-implementing a parent classs method under the clid class with same signature.
+
+	ex:-
+	class1
+	Test()
+
+	class2 :class1
+	Test()
+
+	ex:- //Any virtual method of the parent class can be overriden by the child class
+			//if required by using the override modifier
+	 class1{
+		 public virtual void Test() // overridable
+	 }
+	
+	class2 :class1{
+	 public override void Test() //overriding
+	}
+
+==> method hiding / Shadowing
+		

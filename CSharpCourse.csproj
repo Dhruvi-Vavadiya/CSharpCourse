@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpCourse.AccessModifiers</StartupObject>
+    <StartupObject>CSharpCourse.ChildClass_MethodHiding</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,14 +50,22 @@
     <Compile Include="AnonymousMethods.cs" />
     <Compile Include="ConstructorsDemo.cs" />
     <Compile Include="GenericDelegate.cs" />
+    <Compile Include="InClassA.cs" />
+    <Compile Include="InClassB.cs" />
     <Compile Include="Inheri2AccessModi.cs" />
     <Compile Include="InheriAccessModi.cs" />
     <Compile Include="LambdaExpression.cs" />
+    <Compile Include="MethodOverloadding.cs" />
+    <Compile Include="MethodOverriding.cs" />
+    <Compile Include="ParentClass_MethodHiding.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Note\Points.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
