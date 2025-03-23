@@ -8,16 +8,18 @@ namespace CSharpCourse
 {
     internal class InClassB :InClassA
     {
-        public InClassB():base(10)
+        public InClassB():base(10) //ctor
         {
             Console.WriteLine("Class B const is called");
         }
         static void Main()
         {
-            InClassB inClassB = new InClassB();
-            InClassA inClassA;
+            InClassA objA; //super(parent) ref 
 
-            inClassA = inClassB;
+            InClassB inClassB = new InClassB();
+           
+
+            objA = inClassB;
 
             Object obj = new object();
             obj.GetHashCode();

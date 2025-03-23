@@ -12,6 +12,7 @@ Enumerations
 Exception handling 
 OOP
 
+//jan 28
 Collection
 https://learn.microsoft.com/en-us/dotnet/api/system.collections?view=net-8.0
 https://learn.microsoft.com/en-us/dotnet/api/system.collections.arraylist?view=net-8.0
@@ -32,8 +33,11 @@ LINQ
 MVC architecture
 Basic related to API
 
+//Mar 11
 .Expression-bodied members (C# programming guide)
 https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members
+
+//Mar 13
 Anonymous types
 https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/anonymous-types
 
@@ -42,6 +46,20 @@ https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types
 
 Introduction to record types in C#
 https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/records
+//Mar 18
+Working with HTML Forms in ASP.NET Web Pages (Razor) Sites 
+https://learn.microsoft.com/en-us/aspnet/web-pages/overview/ui-layouts-and-themes/4-working-with-forms
+
+//Mar 19
+Dependency injection in ASP.NET Core
+https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-9.0
+
+Architectural principles
+https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#dependency-inversion
+//Mar 22
+Introduction to Identity on ASP.NET Core
+https://learn.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-9.0&tabs=visual-studio
+
 
 ===========================================================
 ==> Constratcor
@@ -69,6 +87,10 @@ https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/records
 3.Hierarchical
 4.Hybrid(multi level +Hierarchical)
 5.multiple 
+
+Static / Compile time Polymorohism / Method OverLoading / method name same diffrente signature (multiplexi)
+
+Dynamic / Run-Time Polymorohism / Method Overriding / IS-A Relationship (parent child)
 
 ==>Method Overloading
 	it's approches to implement multiple  method having same name but diffrent paramenter type it's called overloading
