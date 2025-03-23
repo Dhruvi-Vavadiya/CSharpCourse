@@ -48,4 +48,35 @@ namespace CSharpCourse
             Console.WriteLine(i);
         }
     }
+
+
+    public class overloading_out
+    {
+        public void Test(string s)
+        {
+            Console.WriteLine("t1 :: " + s);
+        }
+        public void Test(double d)
+        {
+            Console.WriteLine("t12 :: " + d);
+        }
+        private void Test(float f)
+        {
+            Console.WriteLine("t123 :: " + f);
+        }
+        protected void Test(int i) //outside the project use it 
+        {
+            Console.WriteLine("t1234 ::" + i);
+        }
+        internal void Test(char c)
+        {
+            Console.WriteLine("t12 :: " + c);
+        }
+
+        internal protected void Test(int i, char c)
+        {
+            Console.WriteLine("inernal prote ::-" + i + c);
+        }
+
+    }
 }

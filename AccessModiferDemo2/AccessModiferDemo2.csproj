@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AccessModiferDemo2.Inheri3AccessModi</StartupObject>
+    <StartupObject>AccessModiferDemo2.Overloading_Test_outside</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Inheri3AccessModi.cs" />
     <Compile Include="Inheri4ProtectedInternal.cs" />
+    <Compile Include="Overloading_Test_outside.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

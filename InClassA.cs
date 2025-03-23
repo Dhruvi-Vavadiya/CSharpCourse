@@ -8,13 +8,14 @@ namespace CSharpCourse
 {
     internal class InClassA
     {
-        public InClassA(int i)
+        public InClassA(int i) //ctor
         {
             Console.WriteLine("Class A const is called ::- " + i);
         }
 
         //methods
 
+       
         public void t1()
         {
             Console.WriteLine("test 1 meth");
@@ -23,5 +24,6 @@ namespace CSharpCourse
         {
             Console.WriteLine("test 2 meth");
         }
+
     }
 }
