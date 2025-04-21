@@ -18,11 +18,12 @@ namespace CSharpCourse
             //anonymous method
             grettingDel gretting = delegate (string name)
             {
-                return "gm  " + name + " geetmethod anonymous";
+                return "gm  " + name + " geetting method anonymous";
             };
             string str =gretting.Invoke("raju");
             Console.WriteLine(str);
 
+            //lamdaexpression
             grettingDel obj = (name) =>
             {
                 return "Hello " + name + " geetmethod lambaexpression";
@@ -30,6 +31,7 @@ namespace CSharpCourse
             string objj = obj.Invoke("dhruvi");
             Console.WriteLine(objj);
 
+            
 
         }
 

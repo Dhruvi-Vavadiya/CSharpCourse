@@ -6,63 +6,87 @@ Data types
 Statements and methods
 Properties 
 Access Modifier
-Abstract 
-Structure
-Enumerations
-Exception handling 
-OOP
+Abstract //pen
+Structure //pen
+Enumerations //pen
+Exception handling //pen
+OOP  //sealed //D:\Msc_ICT\Sem2\C#\Youtube_StoreProceduce_LINQ\ConsoleAppOOPsC#
 
 //jan 28
-Collection
+Collection //pen
+
 https://learn.microsoft.com/en-us/dotnet/api/system.collections?view=net-8.0
 https://learn.microsoft.com/en-us/dotnet/api/system.collections.arraylist?view=net-8.0
 https://learn.microsoft.com/en-us/dotnet/api/system.collections.stack?view=net-8.0
 https://learn.microsoft.com/en-us/dotnet/api/system.collections.queue?view=net-8.0
-Indexers
-Delegates
-Events
-Static
-IO namespace
-Threads
-Generics
+D:\Msc_ICT\Sem2\C#\ICT2_72\ConsoleStudentApp\StudnetCollection.cs
+Indexers //pen //D:\Msc_ICT\Sem2\C#\WebAPI\InernalExamRelate\ConsoleAppTupleDelegateOopsConcepts\EmployeeIndexer.cs
+Delegates //pen //D:\Msc_ICT\Sem2\C#\WebAPI\InernalExamRelate\ConsoleAppTupleDelegateOopsConcepts\GenericExample.cs
+Events //pen
+Static //pen
+IO namespace //pen
+Threads //pen
+Generics //pen //D:\Msc_ICT\Sem2\C#\Console\ConsoleApp1\StudnetCollection.cs
+https://learn.microsoft.com/en-us/dotnet/standard/generics/
 https://learn.microsoft.com/en-us/dotnet/standard/generics/
 https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/generics
 https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-classes
-Local Function
+Local Function //pen
 LINQ
 MVC architecture
 Basic related to API
 
+//4 mar
+IEnumerable
+IEnumerator
+D:\Msc_ICT\Sem2\C#\WebAPI\InernalExamRelate\ConsoleAppTupleDelegateOopsConcepts\Employee.cs
+
 //Mar 11
-.Expression-bodied members (C# programming guide)
+.Expression-bodied members (C# programming guide) //pen
+//D:\Msc_ICT\Sem2\C#\WebAPI\InernalExamRelate\ConsoleAppTupleDelegateOopsConcepts\Program.cs
 https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members
 
 //Mar 13
-Anonymous types
+Anonymous types //InernalExamRelate //D:\Msc_ICT\Sem2\C#\WebAPI\InernalExamRelate\ConsoleAppTupleDelegateOopsConcepts\Program.cs
+//new key word is use
+//most of the linq query is use ( select new{} )
 https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/anonymous-types
 
-Tuple types (C# reference)
+Tuple types (C# reference) //WebApplicationIdentityTupleDynamicPoly
 https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-tuples
 
-Introduction to record types in C#
+Introduction to record types in C# //pen
 https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/records
+
 //Mar 18
 Working with HTML Forms in ASP.NET Web Pages (Razor) Sites 
 https://learn.microsoft.com/en-us/aspnet/web-pages/overview/ui-layouts-and-themes/4-working-with-forms
 
-//Mar 19
-Dependency injection in ASP.NET Core
+//Mar 19 Logger
+Dependency injection in ASP.NET Core //pen Que34 Logger
 https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-9.0
 
 Architectural principles
 https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#dependency-inversion
 //Mar 22
-Introduction to Identity on ASP.NET Core
+Introduction to Identity on ASP.NET Core //pen
 https://learn.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-9.0&tabs=visual-studio
 
-//Mar 27
-Join Operations in LINQ
+//Mar 27 JoinOp
+Join Operations in LINQ //JoinOp file
+dictionary linq query //D:\Msc_ICT\Sem2\C#\WebAPI\InernalExamRelate\ConsoleAppTupleDelegateOopsConcepts\Program.cs
 https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/join-operations
+
+C# Dictionary
+C# Queue
+C# Stack
+C# List
+C# Arrays
+C# HashTable
+C# StringCollection
+C# ArrayList
+C# HashSet
+C# LinkedList
 
 ===========================================================
 ==> Constratcor
@@ -91,9 +115,9 @@ https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/jo
 4.Hybrid(multi level +Hierarchical)
 5.multiple 
 
-Static / Compile time Polymorohism / Method OverLoading / method name same diffrente signature (multiplexi)
+Static Polymorohism / Compile time Polymorohism / Method OverLoading / method name same diffrente signature (multiplexi)
 
-Dynamic / Run-Time Polymorohism / Method Overriding / IS-A Relationship (parent child)
+Dynamic Polymorohism / Run-Time Polymorohism / Method Overriding / IS-A Relationship (parent child)
 
 ==>Method Overloading
 	it's approches to implement multiple  method having same name but diffrent paramenter type it's called overloading

@@ -1,38 +1,141 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Identity.Client;
 
 namespace CSharpCourse
 {
+    public struct MyStruct
+    {
+        public double X { set; get; }
+        public double Y { set; get; }
+        public MyStruct(double x, double y)
+        {
+            X = x; Y = y;
+        }
+
+        public override string ToString()
+        {
+            return $"x value :- {X} y value :- {Y}";
+        }
+    }
     internal class Tuples
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("-----------------------------");
-            Console.WriteLine("-----------------------------");
-            Console.WriteLine("-----------------------------");
-            Console.WriteLine("-----------------------------");
-            Console.WriteLine("-----------------------------");
-            Console.WriteLine("-----------------------------");
+            Console.WriteLine("------------file bytes-----------------");
+
+            string path = @"D:\Msc_ICT\Sem2\C#\Console\CSharpCourse\InClassB.cs";
+
+
+            //var fileessss = new DirectoryInfo(path)
+            //                .GetFiles().Where(f => f.Length == 520).Select(f => f.Name).ToList();
+
+
+            //foreach(var file in fileessss)
+            //{
+            //    Console.WriteLine(file);
+            //}
+            Console.WriteLine("------------calculate 10 integer-----------------");
+            List<int> numbers = new List<int> { 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 85, 78, 665, 74, 86, 25, 85 };
+            int total = 0;
+            for (int i = 0; i < 10; i++)
+            {
+                total += numbers[i];
+            }
+
+
+            Console.WriteLine("Sum = " + total);
+            Console.WriteLine("------------strucure-----------------");
+
+            var p1 = new MyStruct(5.5, 10.4);
+            Console.WriteLine(p1.X);
+
+
+            //not working this .net version
+            //var p2 = p1 with { X = 3.3 };
+            //Console.WriteLine(p2);
+
+            //MyStruct  p;
+            //p.X = 3;
+            //p.Y = 4;
+            //Console.WriteLine($"({p.X}, {p.Y})");  // output: (3, 4)
+
+
+            Console.WriteLine("-------------Local function for my created----------------");
+
+            void getFunc(string nm)
+            {
+
+                int getnum(int idd)
+                {
+                    idd = idd * 5;
+                    //Console.WriteLine(id);
+                    return idd;
+                }
+
+                int id = 5;
+
+                id = getnum(id);
+                Console.WriteLine(id);
+            }
+
+            getFunc("ddd");
+
+            Console.WriteLine("-------------Local Generic Function----------------");
+            // Local Generic Function
+            void MyMethod<MyValue>(MyValue values)
+            {
+                Console.WriteLine("Value is: " + values);
+            }
+
+            // Calling local generic function
+            MyMethod<int>(123);
+            MyMethod<string>("GeeksforGeeks");
+            MyMethod<char>('G');
+            MyMethod<double>(45453.5656);
+            Console.WriteLine("------------Reflection practice-----------------");
+            Console.WriteLine("\nReflection.MemberInfo");
+
+            // Load the assembly (DLL)
+            Assembly assembly = Assembly.LoadFrom("CSharpCourse.exe");
+            
+            
+            Type myType = assembly.GetType("CSharpCourse.AccessModifiers"); // Replace with actual namespace.classname
+
+            MethodInfo[] methods = myType.GetMethods();
+
+            foreach (var method in methods)
+            {
+                //parameterinfo
+                //fieldinfo
+                Console.WriteLine($"{method.IsConstructor} is public.");
+            }
+
+
+
             Console.WriteLine("------------Reflection-----------------");
 
 
 
             Type theType = Type.GetType("System.Reflection.Assembly");
 
-            Console.WriteLine("\nSingle Type is {0}\n", theType);
+            Console.WriteLine("\nSingle Type is ::-  {0}\n", theType);
 
-            System.Reflection.Assembly o =  System.Reflection.Assembly.Load("mscorlib.dll");
+            System.Reflection.Assembly o = System.Reflection.Assembly.Load("mscorlib.dll");
 
-            System.Console.WriteLine(o.GetName());
+            Console.WriteLine("get name info ::-" + o.GetName());
 
             int ii = 42;
 
             System.Type type = ii.GetType();
 
-            System.Console.WriteLine(type);
+
+            Console.WriteLine("type :-" + type);
 
             Console.WriteLine("-------------diffrent type pf tuple----------------");
             (int, string) pair1 = (1, "One");
@@ -108,7 +211,8 @@ namespace CSharpCourse
                 [4] = (5, 9),
                 [8] = (7, 1)
             };
-            if (limitss.TryGetValue(8, out var value)) { 
+            if (limitss.TryGetValue(8, out var value))
+            {
                 Console.WriteLine(value.ToString());
             }
 
@@ -136,7 +240,7 @@ namespace CSharpCourse
 
             Console.WriteLine(t1);
             Console.WriteLine(t1.Item1);
-            Console.WriteLine($"first :- { t1.dum} , Second :- {t1.num} ");
+            Console.WriteLine($"first :- {t1.dum} , Second :- {t1.num} ");
 
 
             var a = 1;

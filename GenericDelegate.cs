@@ -33,7 +33,7 @@ namespace CSharpCourse
 
         //generic delegate
         //1.func
-        //2.acion
+        //2.action
         //3.predicate
         static void Main()
         {

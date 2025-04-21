@@ -165,11 +165,13 @@
     <Compile Include="AccessModifiers.cs" />
     <Compile Include="AnonymousMethods.cs" />
     <Compile Include="ConstructorsDemo.cs" />
+    <Compile Include="EmoloyeeIndexer.cs" />
     <Compile Include="GenericDelegate.cs" />
     <Compile Include="InClassA.cs" />
     <Compile Include="InClassB.cs" />
     <Compile Include="Inheri2AccessModi.cs" />
     <Compile Include="InheriAccessModi.cs" />
+    <Compile Include="InterfaceGeneric.cs" />
     <Compile Include="JoinOp.cs" />
     <Compile Include="LambdaExpression.cs" />
     <Compile Include="MethodOverloadding.cs" />
@@ -180,6 +182,7 @@
     <Compile Include="Shape.cs" />
     <Compile Include="Rectange.cs" />
     <Compile Include="Simple_ArrayList_LINQ.cs" />
+    <Compile Include="Threads.cs" />
     <Compile Include="Tuples.cs" />
   </ItemGroup>
   <ItemGroup>
